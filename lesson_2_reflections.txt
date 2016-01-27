@@ -3,6 +3,11 @@ A .git directory is created. We need it to do verson control of our project usin
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Staging area is a place where you can add files which you want to be included in the 
+next commit. Working directory contains all the files and doing git status
+gives you the files that has been changed. We can split these files and add to the 
+staging area and issue them as different commits especially if their changes are
+unrelated.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
