@@ -11,15 +11,28 @@ unrelated.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-I don't know
+Add only the files that has the change in the staging area, commit that first.
+Then add the file with the next change to the staging area, commit and so on
+and so forth.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+When you want to experiment and don't want to mess with original code
+or if you want to do make for italian language separately. Branches lets you try
+out new features and if the work without any issues you can merge to the main branch
+else you can just have the branch if the requirements are specific which caters
+to the branch created and not to the master branch.
 
 How do the diagrams help you visualize the branch structure?
+Its difficult to imagine what is happening in the background as we might forget in the
+process, so visualising gives us a clear idea of what we are doing and how the final structure looks like.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+If two or more people are working on different aspects of the main project, it lets you combine all
+the individual changes to the master which is more like the production model. It gives a clear idea of divergence and convergence.
 
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
+Automatic merging takes the subset of both merges which ensures there are no conflicts but on the other side it has the disadvantage of not including new features on both mergnig brnaches because of
+they being unknown. Manual brnaches has the con of haveing merge conflicts but the user friendly interface makes it easier to debug and discuss amongst others to come up with the best solution to be added to the final merge file.
