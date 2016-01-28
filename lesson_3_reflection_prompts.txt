@@ -3,3 +3,6 @@ For collaborative sharing with peers, creation of open source projects and/or co
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If you are working on a feature and git automatically updates without notification it might hinder with your existing code. But if you do it manually you can see when a conflict occurs with your current code and make the changes to resolve the conflict.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+If you want to use someone else's code on github and make further changes to it, you can use fork to create a copy of it and make the required changes with giving the record to github that the original code was take from this specific author. Since working on code isn't convenient on github, we can make a copy to our local machine and make the changes and push it back to our github repository. Branches helps us when we want to debug, add new feature or just experiment and merge it to the original brmach if we want to.
