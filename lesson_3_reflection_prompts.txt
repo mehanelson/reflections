@@ -6,3 +6,7 @@ If you are working on a feature and git automatically updates without notificati
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 If you want to use someone else's code on github and make further changes to it, you can use fork to create a copy of it and make the required changes with giving the record to github that the original code was take from this specific author. Since working on code isn't convenient on github, we can make a copy to our local machine and make the changes and push it back to our github repository. Branches helps us when we want to debug, add new feature or just experiment and merge it to the original brmach if we want to.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+One can do git diff and see the changes and resolve conflicts that might occur and push the 
+final result to remote.
