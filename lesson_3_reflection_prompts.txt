@@ -10,3 +10,6 @@ If you want to use someone else's code on github and make further changes to it,
 What is the benefit of having a copy of the last known state of the remote stored locally?
 One can do git diff and see the changes and resolve conflicts that might occur and push the 
 final result to remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Share files via internal networks. Version control and collaboration will be difficult and cannot work with people remotely.
